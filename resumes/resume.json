@@ -6,7 +6,7 @@
     "email": "jobs@hjhart.com",
     "phone": "(425) 835-2366",
     "website": "https://hjhart.com",
-    "summary": "I’m looking for a remote position on a team where I can continue to grow as an engineering leader as well as help build more value for members. I consider myself a true full-stack engineer with deep experience in both back-end optimization and building rich front-end websites and apps. I have twenty years in total web experience, including fourteen years using Ruby on Rails. I have deployed and configured all pieces of back-end infrastructure needed to run a scalable server-side application, however I have a strong penchance for keeping it simple. I have conducted 200+ technical interviews throughout my career and take an active role in building and scaling high-performing engineering teams. I am a voracious learner and enjoy working with like-minded people.",
+    "summary": "I’m looking for a remote position on a team where I can continue to grow as an engineering leader as well as help build more value for members. I consider myself a true full-stack engineer with deep experience in both back-end optimization and building rich front-end websites and apps. I have twenty years in total web experience, including fourteen years using Ruby on Rails. I have deployed and configured all pieces of back-end infrastructure needed to run a scalable server-side application, however I have a strong penchance for keeping it simple. I have conducted 100+ technical interviews throughout my career and take an active role in building and scaling high-performing engineering teams. I am a voracious learner and enjoy working with like-minded people.",
     "profiles": [
       {
         "network": "GitHub",
@@ -28,7 +28,14 @@
       "address": "177 Post St, Suite 900, San Francisco, CA",
       "phone": "(415) 868-4141",
       "startDate": "2025-01-06",
-      "summary": "Supported our iOS engineer launch the app by building APIs. Re-built the members main web-app using NextJS and React atop of same APIs. Re-architected testing infrastructure. Reduced number of tickets per day for Operations by building more self-scheduling flows for our members."
+      "summary": "Supported our iOS engineer launch the app by building APIs. Re-built the members main web-app using NextJS and React atop of same APIs. Re-architected testing infrastructure. Reduced number of tickets per day for Operations by building more self-scheduling flows for our members.",
+      "highlights": [
+        "Scaled the pediatric care platform to 5,000 active patients and $520K in monthly revenue, a $6.2M annualized run rate.",
+        "Built platform support for a new obesity-care service line, which grew from roughly 100 to over 250 referrals a month at about 2.5x the margin of our existing behavioral-health groups.",
+        "Owned production reliability. Eliminated 40s+ query timeouts, resolved 30s replica lag, upgraded an end-of-life Redis, and enforced webhook signature verification, with zero unplanned outages.",
+        "Built an AI-assisted development workflow on git worktrees and Conductor, running several coding agents in parallel, which raised my output from about 4 to about 10 commits a week (2.6x).",
+        "Developed an interview process that assesses candidates for AI skills and ran it with 20+ candidates, hiring 3 engineers."
+      ]
     },
     {
       "company": "Brightline Health",

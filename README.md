@@ -7,6 +7,27 @@ Jekyll rakefile: https://github.com/avillafiorita/jekyll-rakefile
 The resume source of truth is `resumes/resume.json` in this repo. The `hjhart/resume`
 repo is archived; this repo is now the source of truth.
 
+### Writing style
+
+Each job has a prose `summary` for context and optional `highlights` (rendered as
+bullets) for measurable wins. Keep them consistent:
+
+- **Past tense**, even for the current job. Start each sentence with a verb: "Scaled",
+  "Built", "Led", "Reduced". Drop the subject; use "I" only in the prose summary where
+  it already reads naturally.
+- **Lead with what you did, then the result.** Include a number whenever one exists
+  (patients, revenue, percent, minutes, headcount). Say "from X to Y" for growth.
+- **Plain words.** Say "built" not "leveraged", "ran" not "spearheaded". No buzzwords,
+  no marketing tone.
+- **One idea per bullet**, one or two sentences, ending in a period. Don't repeat the
+  same metric across bullets.
+- **Name the tech only when it matters** (e.g. "sharded PostgreSQL"), not as a list.
+- **Keep it shareable.** Check that revenue, margin and customer figures are okay to
+  publish before adding them.
+- Aim for 2-4 highlights per job, most recent job first, strongest bullet first.
+
+Raw data behind quoted figures (commit rates, etc.) lives in `resumes/data/`.
+
 ### Generate HTML
 
 ```
