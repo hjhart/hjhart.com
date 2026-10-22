@@ -24,8 +24,12 @@ jobs:
           touch resumes/resume.html resumes/resume.pdf
           docker compose -f resume/docker-compose.yml run --rm resume \
             ./node_modules/.bin/resume export --theme short resume.html
-          docker compose -f resume/docker-compose.yml run --rm resume \
-            ./node_modules/.bin/resume export --theme short resume.pdf
+          # resume-cli swallows PDF errors and exits 0, leaving an empty file,
+          # so render the PDF from the HTML with the runner's Chrome instead.
+          google-chrome --headless=new --no-sandbox --disable-gpu --no-pdf-header-footer \
+            --print-to-pdf="$PWD/resumes/resume.pdf" "file://$PWD/resumes/resume.html"
+          test -s resumes/resume.html || { echo "resume.html is empty"; exit 1; }
+          test -s resumes/resume.pdf || { echo "resume.pdf is empty"; exit 1; }
 
       - name: Build Jekyll site
         run: docker compose run --rm app bundle exec jekyll build

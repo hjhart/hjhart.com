@@ -31,7 +31,7 @@
         "Scaled the pediatric care platform to 4,500+ billable sessions and $520K in revenue per month.",
         "Built platform support for a new obesity-care service line, which grew from roughly 100 to over 250 referrals a month at about 2.5x the margin of our existing behavioral-health groups.",
         "Owned production reliability. Cut slow query times, identified and removed replication latency, and upgraded end-of-life datastores, with zero unplanned outages.",
-        "Built an AI-assisted development workflow that runs several coding agents in parallel (Claude, Codex, Conductor, Orca), tripling my weekly commits (median 3 to 9) and the features I shipped from 2025 to 2026, with zero unplanned outages.",
+        "Built an AI-assisted development workflow that runs several coding agents in parallel (Claude, Codex, Conductor, Orca), tripling my weekly commits (median 3 to 9) and the features I shipped from 2025 to 2026.",
         "Developed an interview process that assesses candidates for AI skills and ran it with 30+ candidates, hiring 3 engineers."
       ]
     },
