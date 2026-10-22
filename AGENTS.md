@@ -10,7 +10,8 @@
 
 Rules:
 
-- Make content changes (roles, dates, bullets, skills, summary) in `resumes/resume.json` first, then regenerate or derive downstream artifacts from it. Never edit generated HTML/PDF by hand.
+- Make content changes (roles, dates, bullets, skills, summary) in `resumes/resume.json` first, then derive downstream artifacts from it. Never edit generated HTML/PDF by hand.
+- Never regenerate the resume HTML/PDF locally. The deploy workflow builds them on push to `main`.
 - Downstream material must not contradict the JSON. If a variant needs a different claim, update the JSON (or the data in `resumes/data/`) first.
 - Back every quantified claim with data in `resumes/data/` or a clearly stated source. Prefer the conservative figure (e.g. median commits over lines added).
 - `hjhart/resume` is deprecated. Do not sync from it.
