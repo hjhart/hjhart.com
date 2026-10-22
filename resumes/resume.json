@@ -28,13 +28,13 @@
       "address": "177 Post St, Suite 900, San Francisco, CA",
       "phone": "(415) 868-4141",
       "startDate": "2025-01-06",
-      "summary": "Re-built the members main web-app using NextJS and React atop of same APIs. Re-architected testing infrastructure. Reduced number of tickets per day for Operations by building more self-scheduling flows for our members.",
+      "summary": "Led the build of the redesigned member web app. Re-architected testing infrastructure. Reduced number of tickets per day for Operations by building more self-scheduling flows for our members.",
       "highlights": [
         "Scaled the pediatric care platform to 4,500+ billable sessions and $520K in revenue per month.",
         "Built platform support for a new obesity-care service line, which grew from roughly 100 to over 250 referrals a month at about 2.5x the margin of our existing behavioral-health groups.",
         "Owned production reliability. Reduced slow query times, identified and removed replication latency, and upgraded end-of-life datastores, with zero unplanned outages.",
         "Built an AI-assisted development workflow that runs several coding agents in parallel, which tripled the features I shipped from 2025 to 2026.",
-        "Developed an interview process that assesses candidates for AI skills and ran it with 20+ candidates, hiring 3 engineers."
+        "Developed an interview process that assesses candidates for AI skills and ran it with 30+ candidates, hiring 3 engineers."
       ]
     },
     {
