@@ -6,7 +6,7 @@
     "email": "jobs@hjhart.com",
     "phone": "(425) 835-2366",
     "website": "https://hjhart.com",
-    "summary": "Principal engineer who builds and ships daily with parallel AI coding agents (Claude, Codex, Conductor, Orca), with long-standing production discipline to keep quality high. Twenty years of web experience, including sixteen years of Ruby on Rails. A true full-stack engineer across back-end optimization, infrastructure, and rich front-end apps, with a penchant for keeping it simple. Engineering leader who helped grow a team from 5 to 35 engineers, has conducted 200+ technical interviews, and has helped design many interview processes. A voracious learner who enjoys working with like-minded people.",
+    "summary": "Principal engineer who builds and ships daily with parallel AI coding agents (Conductor with Claude and Codex), with long-standing production discipline to keep quality high. Twenty years of web experience, including sixteen years of Ruby on Rails and more recently two years of Next.js. A true full-stack engineer across back-end optimization, infrastructure, and rich front-end apps, with a penchant for keeping it simple. Engineering leader who helped grow a team from 5 to 35 engineers, has conducted 200+ technical interviews, and has helped build hiring processes on four teams. A voracious learner who enjoys working with like-minded people.",
     "profiles": [
       {
         "network": "GitHub",
@@ -163,7 +163,7 @@
       "name": "Front-End",
       "keywords": [
         "TypeScript",
-        "NextJS (2 years)",
+        "Next.js (2 years)",
         "React",
         "Turbo",
         "TailwindCSS",
